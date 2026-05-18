@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fifi y los Floriguitos 🌸</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Decorative floating petals background -->
+  <div class="petal-bg" aria-hidden="true">
+    <span class="petal p1">🌸</span>
+    <span class="petal p2">✨</span>
+    <span class="petal p3">🌼</span>
+    <span class="petal p4">💛</span>
+    <span class="petal p5">🌸</span>
+    <span class="petal p6">⭐</span>
+    <span class="petal p7">🌺</span>
+    <span class="petal p8">✨</span>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-blob blob1"></div>
+    <div class="hero-blob blob2"></div>
+    <div class="hero-blob blob3"></div>
+    <div class="hero-inner">
+      <img src="logofifi.png" alt="Fifi y los Floriguitos" class="hero-logo" />
+      <p class="hero-subtitle">Ramos artesanales hechos con amor 🌷</p>
+      <a href="#catalogo" class="cta-btn">Ver Catálogo</a>
+    </div>
+  </header>
+
+  <!-- PROCESO DE COMPRA -->
+  <section class="proceso" id="proceso">
+    <div class="section-label">✦ Cómo funciona ✦</div>
+    <h2 class="section-title">Proceso de Compra</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon">🌷</div>
+        <p>Escoge tus productos favoritos del catálogo</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon">💬</div>
+        <p>Escríbenos con los productos y sus especificaciones</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon">💳</div>
+        <p>Realiza el pago del 50% por transferencia</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-icon">📦</div>
+        <p>Te enviamos la información del envío</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGO -->
+  <section class="catalogo" id="catalogo">
+    <div class="section-label">✦ Colección 2026 ✦</div>
+    <h2 class="section-title">Nuestros Ramos</h2>
+
+    <div class="products-grid">
+
+      <!-- Amanecer -->
+      <article class="product-card" style="--accent:#FFD166;">
+        <div class="product-img-wrap">
+          <img src="imagen1.png" alt="Ramo Amanecer" loading="lazy" />
+          <div class="product-badge">⭐ Popular</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Amanecer</h3>
+          <ul class="product-items">
+            <li>🌻 1 girasol grande</li>
+            <li>🌷 4 tulipanes</li>
+            <li>🌼 4 margaritas</li>
+            <li>🧸 1 amigurumi a elección</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$65.000</span>
+            <span class="price-alt">Sin amigurumi: $50.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Sanrio -->
+      <article class="product-card" style="--accent:#FF9DC6;">
+        <div class="product-img-wrap">
+          <img src="imagen2.png" alt="Ramo Sanrio" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Sanrio</h3>
+          <ul class="product-items">
+            <li>🌼 15 margaritas</li>
+            <li>🧸 1 amigurumi Sanrio cuerpo completo</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$45.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Luz de lirio -->
+      <article class="product-card" style="--accent:#FF6B6B;">
+        <div class="product-img-wrap">
+          <img src="imagen3.png" alt="Ramo Luz de lirio" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Luz de Lirio</h3>
+          <ul class="product-items">
+            <li>🌺 3 lirios</li>
+            <li>🌼 4 margaritas</li>
+            <li>🧸 1 amigurumi a elección</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$50.000</span>
+            <span class="price-alt">Sin amigurumi: $35.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Samy -->
+      <article class="product-card" style="--accent:#A8D8EA;">
+        <div class="product-img-wrap">
+          <img src="imagen4.png" alt="Ramo Samy" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Samy</h3>
+          <ul class="product-items">
+            <li>🧸 1 amigurumi cuerpo completo</li>
+            <li>🌼 10 margaritas</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$50.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Aura -->
+      <article class="product-card" style="--accent:#F7B2D0;">
+        <div class="product-img-wrap">
+          <img src="imagen5.png" alt="Ramo Aura" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Aura</h3>
+          <ul class="product-items">
+            <li>🌺 4 lirios</li>
+            <li>🌼 4 margaritas</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$40.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Naruto -->
+      <article class="product-card" style="--accent:#FFA552;">
+        <div class="product-img-wrap">
+          <img src="imagen6.png" alt="Ramo Naruto" loading="lazy" />
+          <div class="product-badge">🍥 Anime</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Naruto</h3>
+          <ul class="product-items">
+            <li>🧸 1 amigurumi Naruto</li>
+            <li>🌼 4 margaritas</li>
+            <li>🌷 4 tulipanes</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$55.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Rapunzel -->
+      <article class="product-card" style="--accent:#C9B8FF;">
+        <div class="product-img-wrap">
+          <img src="imagen7.png" alt="Ramo Rapunzel" loading="lazy" />
+          <div class="product-badge">✨ Mágico</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Rapunzel</h3>
+          <ul class="product-items">
+            <li>🌸 1 lirio grande</li>
+            <li>💡 Luces a pila</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$40.000</span>
+          </div>
+          <div class="add-on-box">
+            <span>+ Añade Pascal</span>
+            <span class="addon-price">$15.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Fútbol -->
+      <article class="product-card" style="--accent:#90D26D;">
+        <div class="product-img-wrap">
+          <img src="imagen8.png" alt="Ramo Fútbol" loading="lazy" />
+          <div class="product-badge">⚽ Especial</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Fútbol</h3>
+          <ul class="product-items">
+            <li>🌷 3 tulipanes</li>
+            <li>🌼 4 margaritas</li>
+            <li>🏅 Nota con imagen o escudo a elección</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$40.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Orchid -->
+      <article class="product-card" style="--accent:#D4B8E0;">
+        <div class="product-img-wrap">
+          <img src="imagen9.png" alt="Ramo Orchid" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Orchid</h3>
+          <ul class="product-items">
+            <li>🌸 5 orquídeas grandes</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$50.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Héroes -->
+      <article class="product-card" style="--accent:#4FC3F7;">
+        <div class="product-img-wrap">
+          <img src="imagen10.png" alt="Ramo Héroes" loading="lazy" />
+          <div class="product-badge">🦸 Superhéroes</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Héroes</h3>
+          <ul class="product-items">
+            <li>🌷 4 tulipanes</li>
+            <li>🌼 4 margaritas</li>
+            <li>🧸 2 amigurumis superhéroes a elección</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$70.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Bella y Bestia -->
+      <article class="product-card" style="--accent:#F5C842;">
+        <div class="product-img-wrap">
+          <img src="imagen11.png" alt="Ramo Bella y Bestia" loading="lazy" />
+          <div class="product-badge">🌹 Romántico</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Bella y Bestia</h3>
+          <ul class="product-items">
+            <li>🌹 1 rosa grande</li>
+            <li>🃏 1 nota Bella y la Bestia a elección</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$25.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Rosita -->
+      <article class="product-card" style="--accent:#FF85A1;">
+        <div class="product-img-wrap">
+          <img src="imagen12.png" alt="Ramo Rosita" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Rosita</h3>
+          <ul class="product-items">
+            <li>🌷 4 tulipanes</li>
+            <li>🌼 4 margaritas</li>
+            <li>🌺 2 lirios</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$65.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Rosita 2.0 -->
+      <article class="product-card featured" style="--accent:#FF85A1;">
+        <div class="product-img-wrap">
+          <img src="imagen13.png" alt="Ramo Rosita 2.0" loading="lazy" />
+          <div class="product-badge">💖 Fan Fav</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Rosita 2.0</h3>
+          <ul class="product-items">
+            <li>🌷 4 tulipanes</li>
+            <li>🌺 3 lirios</li>
+            <li>🌼 15 margaritas</li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">$85.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+      <!-- Girasoles -->
+      <article class="product-card" style="--accent:#FFD166;">
+        <div class="product-img-wrap">
+          <img src="imagen14.png" alt="Girasoles" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-name">Girasoles</h3>
+          <ul class="product-items">
+            <li>🌻 1 girasol grande — <strong>$15.000</strong></li>
+            <li>🌻 1 girasol pequeño — <strong>$7.000</strong></li>
+          </ul>
+          <div class="product-price">
+            <span class="price-main">Desde $7.000</span>
+          </div>
+          <a href="#contacto" class="order-btn">Pedir ahora</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="contact-inner">
+      <div class="section-label">✦ Encuéntranos ✦</div>
+      <h2 class="section-title white">¡Contáctanos!</h2>
+      <p class="contact-sub">Estamos felices de hacerte el ramo de tus sueños 🌷</p>
+      <div class="contact-cards">
+        <a href="https://instagram.com/fifi.y.los.floriguitos" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">📸</span>
+          <span>@fifi.y.los.floriguitos</span>
+          <span class="contact-platform">Instagram</span>
+        </a>
+        <a href="https://tiktok.com/@fifi.y.los.floriguitos" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">🎵</span>
+          <span>@fifi.y.los.floriguitos</span>
+          <span class="contact-platform">TikTok</span>
+        </a>
+        <a href="https://wa.me/573134294245" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">💬</span>
+          <span>+57 313 429 4245</span>
+          <span class="contact-platform">WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="logofifi.png" alt="Fifi y los Floriguitos" class="footer-logo" />
+    <p>© 2026 Fifi y los Floriguitos · Hecho con 💖</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
